@@ -1,7 +1,7 @@
 web:
   image:
     repository: ghcr.io/104corp/nfs-pull
-    tag: v2
+    tag: v3
   nfs:
   - claimName: l-presentation-nginx-3267-models
     mountPath: /data
