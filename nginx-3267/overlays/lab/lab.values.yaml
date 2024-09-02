@@ -1,6 +1,6 @@
 web:
   image:
-    repository: docker pull ghcr.io/104corp/nfs-pull
+    repository: ghcr.io/104corp/nfs-pull
     tag: v2
   nfs:
   - claimName: l-presentation-nginx-3267-models
