@@ -3,6 +3,8 @@ kind: ApplicationSet
 metadata:
   annotations:
     corp104.com/generated-by: goam-v0.77.0
+    corp104.com/router.http.nginx-3267-int.rule: Host(`nginx-3267.104dc-dev.com`)
+    corp104.com/router.http.nginx-3267-int.svc: lab
   name: nginx-3267
 spec:
   generators:
